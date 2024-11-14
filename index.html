@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title> Bootstrap website </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">MyWebSite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="container-fluid bg-light py-5 mt-5" id="home">
+        <div class="container d-md-flex align-items-center justify-content-center gap-5 text-center text-md-start">
+            <div>
+                <h1>Welcome to Anime world!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ab pariatur culpa aspernatur et, earum
+                    expedita rerum ea, quas, repellat id ducimus alias odio quaerat reprehenderit doloribus at dolores
+                    iusto.</p>
+            </div>
+
+            <img class="img-fluid w-50" src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="container my-5" id="about">
+        <h1 class="text-center display-4">About us</h1>
+        <hr class="w-25 mx-auto">
+        <div class="d-md-flex align-items-center justify-content-center text-center text-md-start">
+            <img class="img-fluid w-50" src="https://images.unsplash.com/photo-1710753249040-b62140778d8e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <div class="mx-5">
+                <h2>Our website</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio debitis, culpa, reiciendis quo autem
+                    repudiandae unde quisquam placeat minus, possimus obcaecati repellendus odit accusantium odio
+                    eveniet omnis eum provident dolorum! Sapiente sed deleniti fugiat ducimus, saepe sunt necessitatibus
+                    laudantium repellat. Adipisci illum, dolorem facilis quae officiis dignissimos dolorum eveniet
+                    similique.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio debitis, culpa, reiciendis quo autem
+                    repudiandae unde quisquam placeat minus, possimus obcaecati repellendus odit accusantium odio
+                    eveniet omnis eum provident dolorum! Sapiente sed deleniti fugiat ducimus, saepe sunt necessitatibus
+                    laudantium repellat. Adipisci illum, dolorem facilis quae officiis dignissimos dolorum eveniet
+                    similique.
+                </p>
+                <button class="btn btn-outline-danger btn-lg">Know more</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section class="container text-center" id="services">
+        <h1 class="text-center display-4">Services</h1>
+        <hr class="w-25 mx-auto">
+
+        <div class="d-md-flex justify-content-center align-items-center gap-5 my-5">
+            <div class="card text-center mx-auto mx-md-0 my-4" style="width: 18rem;">
+                <img src="https://i.pcmag.com/imagery/reviews/076PfOqIIVkTpzXteTpPtOL-1.fit_lim.size_901x508.v1610662674.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HIDIVE</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="https://welcome.hidive.com/" class="btn btn-primary">Zuyyyy...</a>
+                </div>
+            </div>
+            <div class="card text-center mx-auto mx-md-0 my-4" style="width: 18rem;">
+                <img src="https://i.pcmag.com/imagery/reviews/04rTxLoXlWShegCylsD3rQ7-11.fit_lim.size_901x508.v1583958677.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Crunchyroll</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="https://www.crunchyroll.com/videos/romance" class="btn btn-primary">Zuyyyy...</a>
+                </div>
+            </div>
+            <div class="card text-center mx-auto mx-md-0 my-4" style="width: 18rem;">
+                <img src="https://i.pcmag.com/imagery/reviews/03Qx3rokUFhvyC5YyDnvqVT-1.fit_lim.size_901x508.v1586275702.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Retro Crush</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="https://www.retrocrush.tv/" class="btn btn-primary">Zuyyyy...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section class="container text-center">
+        <h1 class="text-center display-4">Gallery</h1>
+        <hr class="w-25 mx-auto">
+        <div class="row ">
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1657815555962-297100ce4b0e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1702453757219-80b2311e7e01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1627672360124-4ed09583e14c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMxfHxhbmltZXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1630710478039-9c680b99f800?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxhbmltZXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://plus.unsplash.com/premium_vector-1689096612167-14df9deb605e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YW5pbWV8ZW58MHx8MHx8fDA%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://plus.unsplash.com/premium_vector-1689096625196-fd2c1d8c1a94?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1592547097938-7942b22df3db?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1559033923-951dc0feb795?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIyfHx8ZW58MHx8fHx8"
+                    alt=""></div>
+            <div class="col-lg-4"><img class="img-fluid my-2 my-md-3" src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8"
+                    alt=""></div>
+        </div>
+    </section>
+
+    <!-- Table section -->
+    <section class="container my-5">
+        <h1 class="text-center display-4">User Data</h1>
+        <hr class="w-25 mx-auto">
+
+        <div class="table mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="container my-5 w-75 pb-4" id="contact">
+        <h1 class="text-center display-4">Contact Us</h1>
+        <hr class="w-25 mx-auto">
+        <form>
+            <div class="mb-3">
+                <label for="userName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="userName" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+            <button type="submit" class="btn btn-outline-danger btn-lg">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="bg-dark text-light text-center py-3 fixed-bottom">
+        <div class="container d-flex align-items-center justify-content-center">
+            <p class="mb-0 mx-4">Made with &hearts;</p>
+            <p class="mb-0 mx-4">&#169; All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
